@@ -2,27 +2,17 @@
     "name": "DFRobot_PM2.5_Air_Quality_Sensor",
     "version": "0.1.0",
     "description": "",
+    "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
-        "_locales/zh-cn/DFRobot_PM2.5_Air_Quality_Sensor-strings.json",
         "README.md",
-        "custom.ts"
+        "custom.ts",
+        "_locales/zh-cn/DFRobot_PM2.5_Air_Quality_Sensor-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "targetVersions": {
-        "target": "4.0.16",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+    "public": true
 }
